@@ -23,14 +23,10 @@ public class CatalogNavigationList extends BasePage {
         return this;
     }
 
-    public boolean namePriceAndAmountInfo (By element) {
+    public String namePriceAndAmountInfo (By element) {
         String string = driver.findElement(element).getText();
-        Boolean bln = false;
-        if (string != null) {
-            bln = true;
             System.out.println(string);
-        }
-        return bln;
+        return string;
     }
 
     public boolean displayingComputerAndNetworkElements (By element) {
