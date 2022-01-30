@@ -41,7 +41,7 @@ public class CatalogTests extends BaseTest {
         onlinerHomePage.clickingCatalog();
         catalogPage.clickingComputersAndNetworkBtn();
         catalogNavigationList.movingToComponentsList();
-        catalogNavigationList.namePriceAndAmountInfo(element);
+        Assertions.assertTrue(catalogNavigationList.namePriceAndAmountInfo(element) != null);
     }
 
 
