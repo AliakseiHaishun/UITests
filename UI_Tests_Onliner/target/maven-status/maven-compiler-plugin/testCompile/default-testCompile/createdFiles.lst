@@ -1,0 +1,5 @@
+providers\catalog_providers\NamePriceAndAmountInfoArgumentsProvider.class
+providers\catalog_providers\ComputersAndNetworkArgumentsProvider.class
+tests\catalog_tests\CatalogTests.class
+providers\catalog_providers\CatalogElementsArgumentsProvider.class
+tests\base\BaseTest.class

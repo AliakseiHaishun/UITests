@@ -1,0 +1,8 @@
+Pages\onliner_home\OnlinerHomePage.class
+commons\Config.class
+Pages\base\BasePage.class
+Pages\catalog_page\CatalogNavigationList.class
+commons\CommonActions.class
+constants\Constants.class
+Pages\catalog_page\CatalogPage.class
+constants\Constants$urls.class
